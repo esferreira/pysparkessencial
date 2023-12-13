@@ -1,0 +1,16 @@
+version: "3"
+services:
+  pyspark:
+    image: "jupyter/pyspark-notebook:spark-3.3.2"
+    working_dir: /home/app/
+    volumes:
+      - C:/docker/pysparkessencial:/home/app/
+    ports:
+      - 8888:8888
+    depends_on:
+      - postgres
+    networks:
+      - minha-rede-master
+
+networks:
+  minha-rede-master:
