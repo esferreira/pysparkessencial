@@ -7,8 +7,6 @@ services:
       - C:/docker/pysparkessencial:/home/app/
     ports:
       - 8888:8888
-    depends_on:
-      - postgres
     networks:
       - minha-rede-master
 
