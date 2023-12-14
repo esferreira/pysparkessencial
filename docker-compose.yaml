@@ -6,9 +6,10 @@ services:
     volumes:
       - C:/docker/pysparkessencial:/home/app/
     ports:
-      - 8888:8888
+      - 8888:8888  # Porta para o Jupyter Notebook
+      - 4040:4040  # Porta para o Spark UI
     networks:
-      - minha-rede-master
+      - rede-local
 
 networks:
-  minha-rede-master:
+  rede-local:
