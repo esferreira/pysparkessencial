@@ -1,0 +1,73 @@
+{
+   "clientes":[
+      {
+         "id_cliente":1,
+         "nome":"Esther",
+         "endereco":{
+            "rua":"Vila da Costa",
+            "numero":"27",
+            "bairro":"Aragão",
+            "cidade":"Alves",
+            "estado":"PB",
+            "pais":"Sara Ocidental",
+            "cep":"72596-338"
+         },
+         "sobrenome":"Teixeira",
+         "data_nascimento":"2000-09-29",
+         "email":"mariana858948@example.net",
+         "telefone":"(65) 79034-9652",
+         "celular":"(22) 90597-2207",
+         "cpf":"71284960331",
+         "genero":"F",
+         "data_criacao":"2023-10-22T04:59:02.571Z",
+         "data_atualizacao":"2023-10-22T04:59:02.571Z",
+         "status":true
+      },
+      {
+         "id_cliente":2,
+         "nome":"Mariane",
+         "endereco":{
+            "rua":"Vila da Costa",
+            "numero":"27",
+            "bairro":"Aragão",
+            "cidade":"Alves",
+            "estado":"PB",
+            "pais":"Sara Ocidental",
+            "cep":"72596-338"
+         },
+         "sobrenome":"Barbosa",
+         "data_nascimento":"2005-01-01",
+         "email":"isissilva7264@example.com",
+         "telefone":"(29) 25866-7664",
+         "celular":"(42) 62029-1129",
+         "cpf":"38607941240",
+         "genero":"M",
+         "data_criacao":"2023-10-22T04:59:02.571Z",
+         "data_atualizacao":"2023-10-22T04:59:02.571Z",
+         "status":true
+      },
+      {
+         "id_cliente":3,
+         "nome":"Ana Vitória",
+         "endereco":{
+            "rua":"Vila da Costa",
+            "numero":"27",
+            "bairro":"Aragão",
+            "cidade":"Alves",
+            "estado":"PB",
+            "pais":"Sara Ocidental",
+            "cep":"72596-338"
+         },
+         "sobrenome":"Moura",
+         "data_nascimento":"1972-05-02",
+         "email":"fernandesjoaquim8844@example.org",
+         "telefone":"(51) 45846-4436",
+         "celular":"(79) 89364-2613",
+         "cpf":"87019632440",
+         "genero":"M",
+         "data_criacao":"2023-10-22T04:59:02.571Z",
+         "data_atualizacao":"2023-10-22T04:59:02.571Z",
+         "status":true
+      }
+   ]
+}
