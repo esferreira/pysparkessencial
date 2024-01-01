@@ -1,0 +1,3 @@
+v1
+{"path":"file:///home/app/app/stream/text/part-00000-960462c3-ccb2-4273-8b60-9a14e36bde7c-c000.txt","size":13,"isDir":false,"modificationTime":1703703458079,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///home/app/app/stream/text/part-00001-12e87b20-da37-419c-855c-82550880d738-c000.txt","size":13,"isDir":false,"modificationTime":1703703458076,"blockReplication":1,"blockSize":33554432,"action":"add"}

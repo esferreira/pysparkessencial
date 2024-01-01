@@ -1,7 +1,7 @@
 version: "3"
 services:
   pyspark:
-    image: "jupyter/pyspark-notebook:spark-3.3.2"
+    image: "jupyter/pyspark-notebook:spark-3.5.0"
     working_dir: /home/app/
     volumes:
       - C:/docker/pysparkessencial:/home/app/
@@ -12,5 +12,39 @@ services:
     networks:
       - rede-local
 
+  mysql:
+    image: "mysql:5.7"
+    environment:
+      MYSQL_ROOT_PASSWORD: exemploSenha
+      MYSQL_DATABASE: exemploDB
+      MYSQL_USER: exemploUsuario
+      MYSQL_PASSWORD: exemploSenhaUsuario
+    ports:
+      - 3306:3306
+    networks:
+      - rede-local
+
+  postgres:
+    image: "postgres:latest"
+    environment:
+      POSTGRES_PASSWORD: exemploSenha
+      POSTGRES_DB: exemploDB
+      POSTGRES_USER: exemploUsuario
+    ports:
+      - 5433:5432
+    networks:
+      - rede-local
+
+  sqlserver:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    environment:
+      SA_PASSWORD: "exemploSenha1!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - 1433:1433
+    networks:
+      - rede-local
+
 networks:
   rede-local:
+    driver: bridge

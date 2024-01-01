@@ -1,0 +1,17 @@
+version: "3"
+services:
+  pyspark:
+    image: "jupyter/pyspark-notebook:spark-3.3.2"
+    working_dir: /home/app/
+    volumes:
+      - C:/docker/pysparkessencial:/home/app/
+      - C:/docker/pysparkessencial/app/lib:/opt/spark/jars
+    ports:
+      - 8888:8888  # Porta para o Jupyter Notebook
+      - 4040:4040  # Porta para o Spark UI
+    networks:
+      - rede-local
+
+networks:
+  rede-local:
+    driver: bridge
